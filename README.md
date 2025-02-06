@@ -1,7 +1,7 @@
 # 👨🏻‍💻 Portafolio de José Nava
 
 <div align="center">
-  <a href="https://tupagina.com" target="_blank">
+  <a href="https://portafolio-dev-mu.vercel.app/" target="_blank">
     <img src="public/portafolio.png" alt="Portafolio de José Nava" width="80%">
   </a>
 </div>
