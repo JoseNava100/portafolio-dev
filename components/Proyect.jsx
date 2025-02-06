@@ -22,7 +22,6 @@ const TAGS = {
     },
 };
 
-// Datos de los proyectos
 const PROJECTS = [
     {
         title: "Laravel API RESTful",
@@ -58,7 +57,6 @@ const PROJECTS = [
     },
 ];
 
-// Componente LinkButton
 function LinkButton({ href, children }) {
     return (
         <a
