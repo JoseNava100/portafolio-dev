@@ -2,7 +2,7 @@ import {
     FaLaravel,
     FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiBootstrap, SiHtml5, SiCss3, SiPhp, SiJavascript } from "react-icons/si";
 
 const TAGS = {
     LARAVEL: {
@@ -19,6 +19,31 @@ const TAGS = {
         name: "Tailwind CSS",
         class: "bg-blue-500 text-white",
         icon: <SiTailwindcss className="size-4" />,
+    },
+    BOOTSTRAP: {
+        name: "Bootstrap 5",
+        class: "bg-purple-500 text-white",
+        icon: <SiBootstrap className="size-4" />,
+    },
+    HTML: {
+        name: "HTML 5",
+        class: "bg-orange-500 text-white",
+        icon: <SiHtml5 className="size-4" />,
+    },
+    CSS: {
+        name: "CSS",
+        class: "bg-blue-500 text-white",
+        icon: <SiCss3 className="size-4" />,
+    },
+    PHP: {
+        name: "PHP",
+        class: "bg-purple-400 text-white",
+        icon: <SiPhp className="size-4" />,
+    },
+    JS: {
+        name: "JavaScript",
+        class: "bg-yellow-500 text-white",
+        icon: <SiJavascript className="size-4" />,
     },
 };
 
@@ -54,6 +79,13 @@ const PROJECTS = [
             "Aplicación en Next.js conectada a una API RESTful en Laravel para la gestión de tareas.",
         link: "https://github.com/JoseNava100/nextjs-api-rest-list-to-do",
         tags: [TAGS.NEXT, TAGS.TAILWIND],
+    },
+    {
+        title: "Aplicacion web",
+        subtitle: "Gestion del proceso de titulacion",
+        description:
+            "Contribución al desarrollo de una aplicación web para la gestión del proceso de titulación en el TECNM Campus Cd. Juárez.",
+        tags: [TAGS.BOOTSTRAP, TAGS.HTML, TAGS.CSS, TAGS.PHP, TAGS.JS],
     },
 ];
 
