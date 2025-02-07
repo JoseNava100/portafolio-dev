@@ -59,7 +59,7 @@ export default function Hero() {
                 </p>
 
                 <nav className="flex flex-wrap gap-4 mt-8 justify-center">
-                    <SocialPill href="mailto:jose.nava@example.com" icon={Mail}>
+                    <SocialPill href="mailto:josenavaemanuel@outlook.es" icon={Mail}>
                         Contáctame
                     </SocialPill>
                     <SocialPill href="https://www.linkedin.com/in/jos%C3%A9-nava-668a24315/" icon={Linkedin}>
