@@ -65,6 +65,14 @@ const PROJECTS = [
         tags: [TAGS.LARAVEL],
     },
     {
+        title: "Laravel API RESTful",
+        subtitle: "Gestion de contraseñas y generador de contraseñas",
+        description:
+            "Una API REST hecha en Laravel para la gestión de contraseñas, como generación de contraseñas, con autenticación mediante Laravel Sanctum. Permite integrarse con frameworks frontend como React o Next.js.",
+        link: "https://github.com/JoseNava100/laravel-api-password-manager",
+        tags: [TAGS.LARAVEL],
+    },
+    {
         title: "Aplicacion web",
         subtitle: "Gestión de carros",
         description:
@@ -82,10 +90,18 @@ const PROJECTS = [
     },
     {
         title: "Aplicacion web",
+        subtitle: "Gestion de contraseña y generador de contraseñas",
+        description:
+            "Aplicación en Next.js conectada a una API RESTful en Laravel para la gestión de contraseñas.",
+        link: "https://github.com/JoseNava100/password-app",
+        tags: [TAGS.NEXT, TAGS.TAILWIND],
+    },
+    {
+        title: "Aplicacion web",
         subtitle: "Gestion del proceso de titulacion",
         description:
             "Contribución al desarrollo de una aplicación web para la gestión del proceso de titulación en el TECNM Campus Cd. Juárez.",
-        tags: [TAGS.BOOTSTRAP, TAGS.HTML, TAGS.CSS, TAGS.PHP, TAGS.JS],
+        tags: [TAGS.BOOTSTRAP, TAGS.HTML, TAGS.PHP, TAGS.JS],
     },
 ];
 
